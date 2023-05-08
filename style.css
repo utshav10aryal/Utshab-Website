@@ -1,0 +1,27 @@
+ #bio-class{
+   display: grid; /* This is to adjust image and biography in website */
+   grid-template-columns: 4fr 1fr;
+}
+.bio-image{
+    margin:auto; /* This is to adjust the image */
+}
+.media-container{
+    justify-content: space-between; /* This is to adjust the media in media section */
+    display:flex;
+}
+
+.container{
+    display:grid;  /* This is to adjust the image and contents in website */
+    grid-template-columns: 1fr 1fr;
+    font-size:30px;
+}
+.Content{
+    background-color:rgb(236, 239, 239); /* This is to adjust the body of contents */
+    padding-left: 250px;
+    margin-inline: 20px;
+
+}
+body{
+    background-color: aquamarine; /* This is to style the body of website */
+    margin: 20px;
+}
